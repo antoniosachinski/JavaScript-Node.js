@@ -1,10 +1,10 @@
 // CRIANDO UMA CALCULADORA DIVIDIDA EM MÓDULOS QUE RECEBE VALORES DO CONSOLE 
 
 // "chamando" os módulos
-var soma = require("./so");
-var subitracao = require("./su");
-var divisao = require("./di");
-var multiplicacao = require("./mu");
+var soma = require("./soma");
+var subitracao = require("./subitracao");
+var divisao = require("./divisao");
+var multiplicacao = require("./multiplicacao");
 
 // criando uma interface responsiva no console
 const readline = require("readline");
