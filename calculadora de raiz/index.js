@@ -23,9 +23,9 @@ rl.question('Digite um número para calcular a raiz? ', (input) => {
   // Verifica se as 4 primeiras casas decimais são zero
   if (parteDecimal.slice(0, 4) === '0000') {
     // Se as 4 primeiras casas forem zero, arredonda para inteiro
-    console.log(Math.floor(re)); // Math.floor arredonda para baixo, removendo as casas decimais
+    console.log(Math.floor(resultadoFinal)); // Math.floor arredonda para baixo, removendo as casas decimais
   } else {
     // Caso contrário, mostra com até 10 casas decimais
-    console.log(re.toFixed(10)); // exibe com até 10 casas decimais
+    console.log(resultadoFinal.toFixed(10)); // exibe com até 10 casas decimais
   }
 });
