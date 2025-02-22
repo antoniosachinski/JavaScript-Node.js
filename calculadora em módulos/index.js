@@ -48,6 +48,7 @@ rl.question("Digite um número? ", (valor1) => {
           break;
       }
       console.log(`O resultado da operação é ${resultado}`);
+      rl.close();
     });
   });
 });

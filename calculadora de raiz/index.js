@@ -28,4 +28,5 @@ rl.question('Digite um número para calcular a raiz? ', (input) => {
     // Caso contrário, mostra com até 10 casas decimais
     console.log(resultadoFinal.toFixed(10)); // exibe com até 10 casas decimais
   }
+  rl.close();
 });
