@@ -1,5 +1,5 @@
-r = function (c, n) {
-    return c - (c ** 2 - n) / (2 * c);
+resultado = function (n) {
+    return n ** (1 / 2);
   };
-  module.exports = r;
+  module.exports = resultado;
   
