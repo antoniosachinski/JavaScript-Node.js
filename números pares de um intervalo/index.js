@@ -1,4 +1,4 @@
-var decobrirPares = function (valor1, valor2) {
+const decobrirPares = function (valor1, valor2) {
   if (valor1 == valor2) {
     console.log('Os números são iguais');
     return;
