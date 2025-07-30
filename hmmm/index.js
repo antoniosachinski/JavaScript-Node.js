@@ -1,11 +1,16 @@
 a = "Aaaaaaaa"
 function verificaSenha(senha){
     if(/[A-Z]/.test(senha)){
-        console.log("Sua senha tem maiúscula")
+        console.log("Sua senha tem pelo menos uma letra maiúscula")
         if(/[a-z]/.test(senha)){
-            console.log("Sua senha tem minúscula")
+            console.log("Sua senha tem pelo menos uma letra minúscula")
             if(/[0-9]/.test(senha)){
-               console.log("Sua senha tem número") 
+               console.log("Sua senha tem pelo menos um número") 
+               if(/[^A-Za-z0-9]/.test(sennha)){
+                console.log("Sua senha tem pelo menos um caracter especial")
+               }else{
+                
+               }
             }     
 
         }
