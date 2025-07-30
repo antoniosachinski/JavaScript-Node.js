@@ -1,14 +1,19 @@
 var a = "Aa6aaaaaaaaaaaa!"
+const tipoSenha = []
 function verificaSenha(senha){
     if(senha.length > 7){
         if(/[A-Z]/.test(senha)){
-            console.log("Sua senha tem pelo menos uma letra maiúscula")
+            tipoSenha.push = ("letra maiúscula,")
+            console.log(tipoSenha)
             if(/[a-z]/.test(senha)){
-            console.log("Sua senha tem pelo menos uma letra minúscula")
+                tipoSenha.push = ("letra minúscula,")
+                console.log(tipoSenha)
                 if(/[0-9]/.test(senha)){
-                   console.log("Sua senha tem pelo menos um número") 
+                   tipoSenha.push = ("número,")
+                   console.log(tipoSenha)
                    if(/[^A-Za-z0-9]/.test(senha)){
-                    console.log("Sua senha tem pelo menos um caracter especial")
+                    tipoSenha.push = "especial"
+                    console.log(tipoSenha)
                    }else{
                     console.log("Sua senha tem pelo menos uma letra maiúscula, uma letra minúscula e um número, mas não possui caractere especial")
                    }
